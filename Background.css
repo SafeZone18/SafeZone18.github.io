@@ -1,0 +1,60 @@
+body {
+    background-image: url("img_sunset.png");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: 0px;
+	border: 0px;
+	padding-top: 70px;
+}
+
+h3{
+	color: CadetBlue;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+}
+
+ h1 {
+	color: darkseagreen;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+	size: 8;
+}
+
+body, html {
+	height: 100%;
+} 
+/*Start of Navigation Bar*/ 	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/*End Of Navigation Bar*/ 
+
+
+	
+	
+	
+	
