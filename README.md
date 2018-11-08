@@ -1,1 +1,1 @@
-# SafeZone.github.io
+# SafeZone.com
