@@ -4,7 +4,10 @@ body {
 	border: 0px;
 	padding-top: 70px;
 }
-
+img, object{
+max-height:50%;
+max-width:50%;
+}
 
 /*Start of Navigation Bar*/ 	
 ul {
