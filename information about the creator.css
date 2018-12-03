@@ -9,11 +9,6 @@ body{
 	padding-top: 			70px;
 } 
 
-.debug-center{
-    display:         flex;
-    justify-content: center;
-    align-items:     center; 
-}
 /*Start of Navigation Bar*/ 	
 ul {
     list-style-type: 	none;
