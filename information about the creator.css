@@ -9,6 +9,17 @@ body{
 	padding-top: 			70px;
 } 
 
+aside {
+    width: 		260px;
+    float: 		right;
+    border-top: 	1px solid #21a1e1;
+    border-left: 	1px solid #21a1e1;
+    border-right: 	1px solid #21a1e1;
+    border-bottom: 	1px solid #21a1e1;
+    padding-left: 	0px;
+    margin-left: 	20px;
+}
+
 /*Start of Navigation Bar*/ 	
 ul {
     list-style-type: 	none;
