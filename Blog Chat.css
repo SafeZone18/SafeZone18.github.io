@@ -34,3 +34,6 @@ li a:hover {
     background-color: #111;
 }
 /*End Of Navigation Bar*/
+# Buuild settings 
+markdown: kramdown
+theme: minima
