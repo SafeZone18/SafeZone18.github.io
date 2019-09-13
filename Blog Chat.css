@@ -77,8 +77,4 @@ $comments = $db->get_comments($comment_post_ID);
 $has_comments = (count($comments) > 0);
 ?>
 
-#posts-list.has-comments li.no-comments {
-  display: none;
-}
-
 /*End of comment section*/
