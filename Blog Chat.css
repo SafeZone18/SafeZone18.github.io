@@ -34,6 +34,7 @@ li a:hover {
     background-color: #111;
 }
 /*End Of Navigation Bar*/
+
 /*Start of comment section*/
 #respond {
   margin-top: 40px;
@@ -55,4 +56,29 @@ li a:hover {
 
   line-height: 1.4em;
 }
+
+<?php
+require('Persistence.php');
+
+$db = new Persistence();
+if( $db->add_comment($_POST) ) {
+  header( 'Location: index.php' );
+}
+else {
+  header( 'Location: index.php?error=Your comment was not posted due to errors in your form submission' );
+}
+?>
+
+<?php
+require('Persistence.php');
+$comment_post_ID = 1;
+$db = new Persistence();
+$comments = $db->get_comments($comment_post_ID);
+$has_comments = (count($comments) > 0);
+?>
+
+#posts-list.has-comments li.no-comments {
+  display: none;
+}
+
 /*End of comment section*/
