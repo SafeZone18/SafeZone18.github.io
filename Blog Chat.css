@@ -34,13 +34,12 @@ li a:hover {
     background-color: #111;
 }
 /*End Of Navigation Bar*/
-
+/*Start of comment section*/
 #respond {
   margin-top: 40px;
 }
 
 #respond input[type='text'],
-#respond input[type='email'], 
 #respond textarea {
   margin-bottom: 10px;
   display: block;
@@ -56,4 +55,4 @@ li a:hover {
 
   line-height: 1.4em;
 }
-
+/*End of comment section*/
