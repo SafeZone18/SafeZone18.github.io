@@ -1,3 +1,110 @@
+
+/*Start of Navigation Bar*/
+
+
+
+
+body{
+
+
+margin: 0px;
+
+
+	border: 0px;
+
+
+	padding-top: 70px;
+
+
+}	
+
+
+ul {
+
+
+   list-style-type: none;
+
+
+   margin: 0;
+
+
+   padding-top: 0;
+
+
+   overflow: hidden;
+
+
+   background-color: #333;
+
+
+	position: fixed;
+
+
+   top: 0;
+
+
+   width: 100%;
+
+
+}
+
+
+
+
+
+
+
+li {
+
+
+   float: left;
+
+
+}
+
+
+
+
+
+
+
+li a {
+
+
+   display: block;
+
+
+   color: white;
+
+
+   text-align: center;
+
+
+   padding: 14px 16px;
+
+
+   text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+li a:hover {
+
+
+   background-color: #111;
+
+
+}
+
+
+/*End Of Navigation Bar*/
+
 h1 {
     font-weight: bold;
     margin: 0;
