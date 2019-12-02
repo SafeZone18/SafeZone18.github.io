@@ -7,7 +7,6 @@
 <nav>	 
 	<ul>
 		<li><a href="index.html" id="linkref">Home Page</a></li> 
-		<li><a href="login.html" id="linkref">Login</a></li>
 		<li><a href="games.html" id="linkref">Games</a></li>
 		<li><a href="blog chat.html" id="linkref">Blog Chat</a></li>
 		<li><a href="information about the creator.html" id="linkref">Information About the Creator</a></li>
@@ -43,6 +42,29 @@
         <button>Sign Up</button>
     </form>
 </div>
+	 <form action="action_page.php">
+   <div class="imgcontainer">
+   </div>
+	
+	<div class="container">
+		<label for="uname"><b>Nickname:</b></label>
+		<input type="text" placeholder="Enter Nickname" name="uname" required>
+
+		<label for="psw"><b>Password:</b></label> 
+		<input type="password" placeholder="Enter Password" name="psw" required> 
+		
+		<button type="submit">Login</button>
+		<label>
+			<input type="checkbox" checked="checked" name="remember">
+		Remember Me
+		    </label>
+		</div>
+		
+		<div class="container" style="background-color:#F1F1F1">
+		   <button type="button" class="cancelbutton">Cancel</button>
+		   <span class="psw">Forgot <a href="#">password?</a></span>
+		</div>   
+    </form>   
 </body>
 </head>
 </html> 
