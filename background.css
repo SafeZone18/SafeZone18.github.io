@@ -6,13 +6,15 @@ body {
 }
 
 h3{
-	color:mediumseagreen;
+	/*color:mediumseagreen;*/
+	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	text-align: center;
 }
 
  h1 {
-	color: darkseagreen; 
+	/*color: darkseagreen; */
+	color: white;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	text-align: center;
 	size: 8;
